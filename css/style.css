@@ -1,0 +1,431 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Noto Serif Gujarati', serif;
+}
+  
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+span{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: rgb(81, 81, 81);
+}
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+header{
+    /* border: 2px solid black; */
+    font-size: 1.3rem;
+}
+
+#menuImg{
+    display: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+nav>ul{
+    padding: 0px 4% 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#apply a{
+    background: darkslategray;
+    color: white;
+    padding: 4px 100%;
+}
+
+section{
+    /* border: 2px solid firebrick; */
+    background: rgb(241,243,245);
+}
+
+.topSection{
+    display: flex;
+    justify-content: space-around;
+}
+
+.topSectionLeftSide{
+    flex-basis: 33.3333%;
+    padding: 20px 0px 30px 0px;
+}
+
+#logoDiv{
+    display: flex;
+    align-items: center;
+    flex-basis: 40%;
+}
+
+#mainLogo{
+    width: 100%;
+    object-fit: contain;
+}
+
+#email{
+    padding: 6px 6px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 2px solid darkslategray;
+    color: darkslategray;
+}
+
+#submit{
+    background: darkslategray;
+    color: white;
+    font-size: 1.6rem;
+    padding: 6px 6px;
+    font-weight: 700;
+    border: none;
+}
+
+#empowers{
+    text-align: center;
+    width: 100%;
+    padding: 30px 10%;
+    background: white;
+}
+
+#empowers h2{
+    padding: 10px 0 30px 0px;
+}
+
+#empowers section{
+    background: white;
+    padding-bottom: 20px;
+}
+
+.firstHalf{
+    font-weight: 600;
+    border-top: 2px solid rgb(240, 128, 128, .8);
+}
+
+.small{
+    font-size: 1.4rem;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.small span{
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+#empowers>span{
+    color: grey;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+#history{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+#history img{
+    width: 100%;
+    padding: 20px 0px 4% 20px;
+}
+
+.leftSide{
+    flex-basis: 50%;
+}
+
+.rightSide{
+    padding-top: 26px;
+    flex-basis: 40%;
+}
+
+#history div{
+    color: gray;
+    font-style: italic;
+}
+
+#whoWeAre{
+    width: 100%;
+    background: white;
+    padding: 20px 0px;
+}
+
+.founder{
+    width: 80%;
+    border: 1px solid gray;
+    background: white;
+    padding: 20px 2%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.founder img{
+    padding-right: 20px;
+    object-fit: contain;
+    height: 80%;
+}
+
+.founderText{
+    width: 80%;
+    padding: 0px 0px 0px 2%;
+    background: white;
+}
+
+#orgSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orgs{
+    background: white;
+    padding: 20px 2%;
+    flex-basis: 50%;
+}
+
+.orgs h5{
+    font-size: 1.8rem;
+    color: darkgray;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+aside{
+    background:rgb(193, 193, 241);
+    width: 100%;
+    padding: 10px 6% 10px 12%;
+    font-family: 'Roboto', san-serif;
+    display: flex;
+}
+
+aside span{
+    color: darkslategray;
+    font-size:1.8rem;
+    padding: 8px 2% 0px 0px;
+}
+
+aside form{
+    width: 50%;
+}
+
+#email2{
+    margin-top: 4px;
+    padding: 6px 6px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 2px solid darkslategray;
+    color: darkslategray;
+}
+
+#submitTwo{
+    background: darkslategray;
+    color: white;
+    font-size: 1.6rem;
+    padding: 6px 6px;
+    font-weight: 700;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    background: rgb(115, 129, 162);
+    color: white;
+    font-family: 'Roboto', san-serif;
+}
+
+.topFooter{
+    background: rgb(115, 129, 162);
+    border-bottom: 2px solid white;
+    width: 100%;
+    padding: 10px 6% 10px 12%;
+    font-size: 1.6rem;
+}
+
+.topFooter a{
+    color: white;
+    padding-left: 2%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+footer ul{
+    width: 18%;
+    padding: 0px;
+}
+
+.bottomFooter{
+    padding: 10px 6% 10px 12%;
+    display: flex;
+    color: darkslategray;
+}
+
+.bottomFooter li:first-child{
+    font-weight: 600;
+}
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  @media screen and (max-width: 1000px){
+    footer{
+        display: none;
+    }
+    #empowers section {
+        width: 100%;
+    }
+
+    #empowers section span{
+        font-size: 1.8rem;
+    }
+
+    #empowers>span{
+        font-size: 1.6rem;
+    }
+
+    .topRightSection{
+        display:none;
+    }
+
+    .leftTopSection{
+        width: 100%;
+    }
+
+    li{
+        margin-right: 4%;
+    }
+
+    .founder{
+        height: 340px;
+    }
+
+    .founderText{
+        float: right;
+        width:60%;
+        text-align: justify;
+        margin: 5px;
+    }
+
+    .founder div{
+        float: left;
+    }
+
+    .founder img{
+        margin: 5px;
+    }
+
+    nav li{
+        font-size: 1.6rem;
+    }
+
+    #history{
+        display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 640px){
+    footer{
+        display: none;
+    }
+    #empowers section {
+        width: 100%;
+    }
+
+    #empowers section span{
+        font-size: 1.8rem;
+    }
+
+    #empowers>span{
+        font-size: 1.6rem;
+    }
+
+    .topRightSection{
+        display:none;
+    }
+
+    .leftTopSection{
+        width: 100%;
+    }
+
+    li{
+        margin-right: 4%;
+    }
+
+    nav li{
+        font-size: 1.6rem;
+    }
+
+    .navItems{
+        display:none;
+    }
+
+    #menuImg{
+        display: block;
+        width: 10%;
+    }
+
+    #menuImg img{
+        width: 100%;
+    }
+
+    #history{
+        display: none;
+    }
+
+    #whoWeAre{
+        display: none;
+    }
+
+    aside form{
+        float: left;
+    }
+
+  }
