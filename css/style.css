@@ -387,6 +387,10 @@ footer ul{
         font-size: 1.6rem;
     }
 
+    .topSection{
+        flex-direction: column-reverse;
+    }
+
     .topRightSection{
         display:none;
     }
@@ -430,6 +434,10 @@ footer ul{
 
     aside form{
         float: left;
+    }
+
+    aside{
+        flex-direction: column;
     }
 
   }
